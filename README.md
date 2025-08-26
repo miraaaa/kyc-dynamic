@@ -63,20 +63,22 @@ npm test
 
 <pre>
 kyc-dynamic/
-├── public/
+├── public/                    # Static files (favicon, vite.svg, etc.)
 ├── src/
 │   ├── assets/                # Images & logos
-│   ├── components/
+│   ├── components/            # Reusable React components
 │   │   ├── DynamicForm/       # Multi-step form logic & rendering
 │   │   ├── SchemaModal.jsx    # JSON schema editor modal
 │   │   ├── ThemeToggle.jsx    # Dark/Light mode toggle
 │   │   └── __tests__/         # Unit & integration tests
-│   ├── utils/                 # Validators, API mocks
-│   ├── App.jsx                # Main app entry
-│   ├── App.css                # All styles
-│   └── schema/                # Example default schema
-├── package.json
-└── README.md
+│   ├── utils/                 # Helpers (validators, API mocks)
+│   ├── schema/                # Example default schema
+│   ├── App.jsx                # Root component
+│   └── main.jsx               # React entry point
+├── package.json               # Dependencies & scripts
+├── vite.config.js             # Vite configuration
+└── README.md                  # Project documentation
+
 </pre>
 
 ---

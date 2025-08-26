@@ -67,14 +67,14 @@ kyc-dynamic/
 ├── src/
 │   ├── assets/                # Images & logos
 │   ├── components/
-│   │   ├── DynamicForm/      # Multi-step form logic & rendering
-│   │   ├── SchemaModal.jsx   # JSON schema editor modal
-│   │   ├── ThemeToggle.jsx   # Dark/Light mode toggle
-│   │   └── __tests__/        # Unit & integration tests
-│   ├── utils/                # Validators, API mocks
-│   ├── App.jsx               # Main app entry
-│   ├── App.css               # All styles
-│   └── schema/               # Example default schema
+│   │   ├── DynamicForm/       # Multi-step form logic & rendering
+│   │   ├── SchemaModal.jsx    # JSON schema editor modal
+│   │   ├── ThemeToggle.jsx    # Dark/Light mode toggle
+│   │   └── __tests__/         # Unit & integration tests
+│   ├── utils/                 # Validators, API mocks
+│   ├── App.jsx                # Main app entry
+│   ├── App.css                # All styles
+│   └── schema/                # Example default schema
 ├── package.json
 └── README.md
 </pre>
